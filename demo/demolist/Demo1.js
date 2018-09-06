@@ -1,17 +1,17 @@
 /**
  *
- * @title 应用组件名称
- * @description 应用组件描述
+ * @title 富文本编辑器
+ * @description 美观易用的React富文本编辑器，基于draft-js开发
  *
  */
 
 import React, { Component } from 'react';
-import Temp from '../../src/index';
+import AcEditor from '../../src/index';
 class Demo1 extends Component {
     render () {
         return (
             <div className="demoPadding">
-                <Temp >tools测试代码</Temp>
+                <AcEditor />
             </div>
         )
     }

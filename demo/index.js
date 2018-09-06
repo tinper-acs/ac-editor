@@ -15,7 +15,7 @@ const CARETUP = <i className="uf uf-arrow-up"></i>;
 
 
 import Demo1 from "./demolist/Demo1";
-var DemoArray = [{"example":<Demo1 />,"title":" 应用组件名称","code":"/**\n *\n * @title 应用组件名称\n * @description 应用组件描述\n *\n */\n\nimport React, { Component } from 'react';\nimport Temp from '../../src/index';\nclass Demo1 extends Component {\n    render () {\n        return (\n            <div className=\"demoPadding\">\n                <Temp >tools测试代码</Temp>\n            </div>\n        )\n    }\n}\n\n\n","desc":" 应用组件描述"}]
+var DemoArray = [{"example":<Demo1 />,"title":" 富文本编辑器","code":"/**\n *\n * @title 富文本编辑器\n * @description 美观易用的React富文本编辑器，基于draft-js开发\n *\n */\n\nimport React, { Component } from 'react';\nimport AcEditor from '../../src/index';\nclass Demo1 extends Component {\n    render () {\n        return (\n            <div className=\"demoPadding\">\n                <AcEditor />\n            </div>\n        )\n    }\n}\n\n\n","desc":" 美观易用的React富文本编辑器，基于draft-js开发"}]
 
 
 class Demo extends Component {
