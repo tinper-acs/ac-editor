@@ -30,11 +30,11 @@ npm install ac-editor --save
 编辑器支持**value**和**onChange**属性，这类似于React中原生的input组件。通常情况下，可以用典型的**受控组件**的形式来使用本编辑器：
 
 ```jsx
-import React from 'react'
+import React from 'react';
 // 引入编辑器以及EditorState子模块
-import AcEditor, { EditorState } from 'braft-editor'
+import AcEditor, { EditorState } from 'ac-editor';
 // 引入编辑器样式
-import 'ac-editor/dist/index.css'
+import 'ac-editor/dist/index.css';
 
 export default class EditorDemo extends React.Component {
 
@@ -54,17 +54,16 @@ export default class EditorDemo extends React.Component {
   submitContent = async () => {
     // 在编辑器获得焦点时按下ctrl+s会执行此方法
     // 编辑器内容提交到服务端之前，可直接调用editorState.toHTML()来获取HTML格式的内容
-    const htmlContent = this.state.editorState.toHTML()
-    const result = await saveEditorContent(htmlContent)
+    const htmlContent = this.state.editorState.toHTML();
+    const result = await saveEditorContent(htmlContent);
   }
 
   handleEditorChange = (editorState) => {
-    this.setState({ editorState })
+    this.setState({ editorState });
   }
 
   render () {
-
-    const { editorState } = this.state
+    const { editorState } = this.state;
     return (
       <div className="my-component">
         <AcEditor

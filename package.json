@@ -1,6 +1,6 @@
 {
   "name": "ac-editor",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Rich Text Editor",
   "main": "dist/index.js",
   "scripts": {
@@ -48,6 +48,7 @@
     "babel-preset-es2015-loose": "^8.0.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
+    "braft-editor": "^2.0.5",
     "bee-button": "^1.0.6",
     "bee-layout": "^1.2.7",
     "bee-panel": "^1.0.0",
@@ -93,7 +94,5 @@
     "react-dom": "^15.3.0 || ^16.0.0",
     "prop-types": "^15.6.0"
   },
-  "dependencies": {
-    "braft-editor": "^2.0.5"
-  }
+  "dependencies": {}
 }
