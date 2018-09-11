@@ -7,9 +7,9 @@
 
 import React, { Component } from 'react';
 // 引入编辑器以及EditorState子模块
-import AcEditor, { EditorState } from 'ac-editor';
+import AcEditor, { EditorState } from '../../src/index';
 // 引入编辑器样式
-import 'ac-editor/dist/index.css';
+// import 'ac-editor/dist/index.css';
 class Demo1 extends Component {
     constructor() {
         super();
@@ -35,7 +35,7 @@ class Demo1 extends Component {
         this.setState({ editorState });
     }
     render() {
-        const { editorState  } = this.state;
+        const { editorState } = this.state;
         return (
             <div className="demoPadding">
                 <AcEditor

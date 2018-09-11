@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
 import Button from 'bee-button';
 import './demo.scss';
 
-
+const pkg = require('../package.json')
 
 
 const CARET = <i className="uf uf-arrow-down"></i>;
@@ -44,7 +44,7 @@ class Demo extends Component {
                 <h3>{ title }</h3>
                 <p>{ desc }</p>
                 <Panel collapsible expanded={ this.state.open } colors='bordered' header={ example } footer={footer} footerStyle = {{padding: 0}}>
-                    <pre><code className="hljs javascript">{ code }</code></pre>
+                    <pre><code className="hljs javascript">{  process.env.NODE_ENV==='development'?code:code.replace('../../src/index',pkg.name) }</code></pre>
                 </Panel>
             </Col>
         )
