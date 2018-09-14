@@ -82,3 +82,11 @@ export default class EditorDemo extends React.Component {
 当然本编辑器也支持**defaultValue**属性，因此你也可以将本编辑器作为一个**非受控组件**来使用。
 
 -------
+
+## 组件属性
+
+[文档参考](https://www.yuque.com/margox/be/gz44tn)
+
+## 实例方法
+
+[文档参考](https://www.yuque.com/margox/be/mrgy92)
