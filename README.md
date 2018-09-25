@@ -6,6 +6,7 @@
 
 #### 一个基于draft-js的Web富文本编辑器，适用于React框架，兼容主流现代浏览器。
 
+演示效果：[https://tinper-acs.github.io/ac-editor/](https://tinper-acs.github.io/ac-editor/)
 
 ## 特性
 - 完善的文本内容编辑功能
