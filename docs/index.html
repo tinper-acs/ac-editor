@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Ac-Editor</title>
+    <title>富文本编辑器 AcEditor</title>
     <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css"/>
     <link type="text/css" rel="stylesheet" href="assets/css/bootstrap-responsive.css"/>
     <link type="text/css" rel="stylesheet" href="assets/css/pilcrow.css"/>
@@ -14,36 +14,27 @@
   <div class="container-fluid">
     <div class="row-fluid">
       <div class="span3"><ul class="nav nav-list">
-    <li class="sidebar-header-1"><a href="#ac-editor">Ac-Editor</a></li>
-    <li class="sidebar-header-4"><a href="#一个基于draft-js的web富文本编辑器，适用于react框架，兼容主流现代浏览器。">一个基于draft-js的Web富文本编辑器，适用于React框架，兼容主流现代浏览器。</a></li>
-    <li class="sidebar-header-2"><a href="#特性">特性</a></li>
-    <li class="sidebar-header-2"><a href="#安装">安装</a></li>
-    <li class="sidebar-header-2"><a href="#使用">使用</a></li>
+    <li class="sidebar-header-1"><a href="#富文本编辑器-aceditor">富文本编辑器 AcEditor</a></li>
+    <li class="sidebar-header-2"><a href="#何时使用">何时使用</a></li>
+    <li class="sidebar-header-2"><a href="#如何使用">如何使用</a></li>
+    <li class="sidebar-header-2"><a href="#代码演示">代码演示</a></li>
+    <li class="sidebar-header-2"><a href="#api">API</a></li>
+    <li class="sidebar-header-2"><a href="#注意事项">注意事项</a></li>
+    <li class="sidebar-header-2"><a href="#更新日志">更新日志</a></li>
 </ul>
       </div>
-      <div class="span9 main"><h1 id="ac-editor">Ac-Editor</h1>
-<p><a href="https://www.npmjs.com/package/ac-editor"><img src="https://img.shields.io/npm/v/ac-editor.svg" alt="npm version"></a>
-<a href="https://npmjs.org/package/ac-editor"><img src="http://img.shields.io/npm/dt/ac-editor.svg?style=flat" alt="NPM downloads"></a></p>
-<h4 id="一个基于draft-js的web富文本编辑器，适用于react框架，兼容主流现代浏览器。">一个基于draft-js的Web富文本编辑器，适用于React框架，兼容主流现代浏览器。</h4>
-<h2 id="特性">特性</h2>
-<ul class="list">
-<li>完善的文本内容编辑功能</li>
-<li>诸多开放的编辑接口，良好的可扩展性</li>
-<li>允许插入图片、音视频等多媒体内容</li>
-<li>允许自定义多媒体内容的上传接口</li>
-<li>允许设置图片的左右浮动（即文字绕排功能）</li>
-<li>允许设置编辑器可用的颜色列表、字号以及字体</li>
-<li>允许自定义需要展示的控制按钮和展示顺序</li>
-<li>允许增加额外的自定义按钮</li>
-<li>多语言支持（目前已支持简体中文、繁体中文和英文）</li>
-</ul>
-<h2 id="安装">安装</h2>
-<pre class="hljs"><code><span class="hljs-comment"># 使用yarn安装</span>
+      <div class="span9 main"><h1 id="富文本编辑器-aceditor">富文本编辑器 AcEditor</h1>
+<p>一个基于draft-js的Web富文本编辑器，适用于React框架，兼容主流现代浏览器。</p>
+<h2 id="何时使用">何时使用</h2>
+<p>富文本编辑器</p>
+<h2 id="如何使用">如何使用</h2>
+<pre class="hljs"><code>使用yarn安装
 yarn add ac-editor
-<span class="hljs-comment"># 使用npm安装</span>
-npm install ac-editor --save</code></pre><h2 id="使用">使用</h2>
-<p>编辑器支持<strong>value</strong>和<strong>onChange</strong>属性，这类似于React中原生的input组件。通常情况下，可以用典型的<strong>受控组件</strong>的形式来使用本编辑器：</p>
-<pre class="hljs"><code><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+
+使用npm安装
+npm install ac-editor --save
+
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
 <span class="hljs-comment">// 引入编辑器以及EditorState子模块</span>
 <span class="hljs-keyword">import</span> AcEditor, { EditorState } <span class="hljs-keyword">from</span> <span class="hljs-string">'ac-editor'</span>;
 <span class="hljs-comment">// 引入编辑器样式</span>
@@ -89,8 +80,14 @@ npm install ac-editor --save</code></pre><h2 id="使用">使用</h2>
 
   }
 
-}</span></code></pre><p>当然本编辑器也支持<strong>defaultValue</strong>属性，因此你也可以将本编辑器作为一个<strong>非受控组件</strong>来使用。</p>
-<hr>
+}
+</span></code></pre><h2 id="代码演示">代码演示</h2>
+<h2 id="api">API</h2>
+<p><a href="https://www.yuque.com/margox/be/gz44tn">文档参考</a></p>
+<p><a href="https://www.yuque.com/margox/be/mrgy92">文档参考</a></p>
+<h2 id="注意事项">注意事项</h2>
+<p>暂无</p>
+<h2 id="更新日志">更新日志</h2>
       </div>
     </div>
   </div>
